@@ -1566,6 +1566,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2271,10 +2410,70 @@
 		(uuid "ffa27ed2-55c2-4b6b-b8d6-a9051d0b6b4f")
 	)
 	(junction
+		(at 207.01 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ef2dbab-d7eb-4856-aaef-726790dfcd08")
+	)
+	(junction
+		(at 224.79 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "263f2aeb-a989-4fe6-9196-e22ff38d0d8a")
+	)
+	(junction
 		(at 113.03 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f138930-876c-4519-a537-6ccb72511686")
+	)
+	(junction
+		(at 224.79 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fcf332d-2238-4b1f-819c-b286323020f4")
+	)
+	(junction
+		(at 201.93 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "588a19f4-5ce2-49c4-b66d-2978fc946792")
+	)
+	(junction
+		(at 213.36 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6241de7b-d193-4b6f-aa04-f26c01fcbecb")
+	)
+	(junction
+		(at 190.5 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "758dd352-3366-4936-b245-6390b9c8fb6a")
+	)
+	(junction
+		(at 201.93 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a6ef29-8113-4f17-b135-7d44495faa00")
+	)
+	(junction
+		(at 213.36 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f310769-e9c0-441e-a6e7-1c1cbde76f23")
+	)
+	(junction
+		(at 190.5 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a33bf43e-2d48-4a25-a565-3760a9e882ab")
+	)
+	(junction
+		(at 207.01 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a5c672-9c0a-4559-ae9b-4f5189991f7a")
 	)
 	(no_connect
 		(at 118.11 114.3)
@@ -2406,6 +2605,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 101.6) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fec2018-cdcb-4b06-8a2b-83b5e0753535")
+	)
+	(wire
+		(pts
 			(xy 223.52 44.45) (xy 223.52 41.91)
 		)
 		(stroke
@@ -2423,6 +2632,16 @@
 			(type default)
 		)
 		(uuid "13792dfd-e15b-4e30-a737-af79b3da91fe")
+	)
+	(wire
+		(pts
+			(xy 236.22 91.44) (xy 236.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7384b0-ac3c-4769-9193-b89839996380")
 	)
 	(wire
 		(pts
@@ -2456,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 101.6) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1132eb-1282-4913-8eb0-28ab497bcf51")
+	)
+	(wire
+		(pts
 			(xy 113.03 81.28) (xy 113.03 83.82)
 		)
 		(stroke
@@ -2473,6 +2702,16 @@
 			(type default)
 		)
 		(uuid "2d58cc96-67d3-4d5e-b97f-86b4a39a96b7")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322a9df8-d2c9-477e-a0ad-f29356259aff")
 	)
 	(wire
 		(pts
@@ -2496,6 +2735,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 106.68) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3924e9d6-3a6e-451b-b7f1-9ac095f8ff96")
+	)
+	(wire
+		(pts
 			(xy 156.21 64.77) (xy 156.21 67.31)
 		)
 		(stroke
@@ -2503,6 +2752,36 @@
 			(type default)
 		)
 		(uuid "40b03149-c15d-4204-b2a9-c827ca2d17e9")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4157308b-d96a-4004-9661-f0059e78ad98")
+	)
+	(wire
+		(pts
+			(xy 224.79 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500d8633-b059-4858-9d0f-1bb7d5ad6ce7")
+	)
+	(wire
+		(pts
+			(xy 224.79 91.44) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ada718-89e1-487d-b995-d77b62110d80")
 	)
 	(wire
 		(pts
@@ -2533,6 +2812,36 @@
 			(type default)
 		)
 		(uuid "5c2e9ec9-2dfb-4923-88c3-8e1da6b0b0cd")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 201.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed8686b-2a81-4c83-b7c8-17d0ca161bc1")
+	)
+	(wire
+		(pts
+			(xy 179.07 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60115ae6-35c7-49c5-ac3d-0b628f5af0a6")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 201.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60791add-27a1-40b9-aa33-302b68077935")
 	)
 	(wire
 		(pts
@@ -2576,6 +2885,36 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 91.44) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b745ca3-da9e-44d4-bd89-7fd88e832935")
+	)
+	(wire
+		(pts
+			(xy 213.36 104.14) (xy 224.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70921573-8ffa-4276-855e-a80ed9810dfb")
+	)
+	(wire
+		(pts
+			(xy 179.07 93.98) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a064471-4fa1-45b6-9453-e656072850b9")
+	)
+	(wire
+		(pts
 			(xy 135.89 34.29) (xy 135.89 39.37)
 		)
 		(stroke
@@ -2593,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "7c8ca9af-e17b-4557-bf25-47c51e4a972f")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 224.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8116380c-fb22-4679-8282-46506d70e427")
 	)
 	(wire
 		(pts
@@ -2656,6 +3005,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 101.6) (xy 213.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eca35be-c3f9-4d91-ab4e-3f9888dfd7f1")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bb8877-a129-45dd-8634-d64ed2cf22bc")
+	)
+	(wire
+		(pts
 			(xy 165.1 41.91) (xy 167.64 41.91)
 		)
 		(stroke
@@ -2673,6 +3042,26 @@
 			(type default)
 		)
 		(uuid "b0e9c866-63ba-4551-a795-7f8613344abb")
+	)
+	(wire
+		(pts
+			(xy 224.79 104.14) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a5b103-5292-480b-9cbd-802f04760e96")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 213.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c43406-fd25-4ed1-8841-892be0a69e12")
 	)
 	(wire
 		(pts
@@ -2696,6 +3085,36 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 101.6) (xy 224.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94001b7-5779-4733-992a-d3ed370b5306")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd41d471-bea6-4909-8c6c-9df8db2266d4")
+	)
+	(wire
+		(pts
+			(xy 236.22 104.14) (xy 236.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4b6dc8-a329-43b5-99d0-91207d3bf105")
+	)
+	(wire
+		(pts
 			(xy 194.31 34.29) (xy 194.31 39.37)
 		)
 		(stroke
@@ -2703,6 +3122,26 @@
 			(type default)
 		)
 		(uuid "d8076678-e6c9-4a73-bde3-828b3f4b40d9")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 190.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8286b04-15c2-4dfd-a93f-bab1e1d6786b")
+	)
+	(wire
+		(pts
+			(xy 207.01 88.9) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87539ce-59be-4030-8b9e-baec03b47c86")
 	)
 	(wire
 		(pts
@@ -2746,6 +3185,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 91.44) (xy 207.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28daa59-9215-4f66-9141-0a125f56784e")
+	)
+	(wire
+		(pts
 			(xy 77.47 44.45) (xy 77.47 41.91)
 		)
 		(stroke
@@ -2783,6 +3232,16 @@
 			(type default)
 		)
 		(uuid "fd74c32a-05d7-4f1b-aa9e-2beafb482324")
+	)
+	(wire
+		(pts
+			(xy 201.93 104.14) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4b886d-17e6-40a5-9c98-1d02f7cf488c")
 	)
 	(label "PWM1"
 		(at 109.22 124.46 0)
@@ -2925,6 +3384,76 @@
 		(uuid "f5dc93cb-c65f-4e78-b2ab-1c9353895cae")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 213.36 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0780c5dc-dd55-4b5a-abd4-a13a172e210a")
+		(property "Reference" "C4"
+			(at 217.17 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 217.17 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 214.3252 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ece33d9-ca15-4f5c-a0e3-31845c134f00")
+		)
+		(pin "2"
+			(uuid "28cff4aa-2f5c-4cfd-97c9-ed61def9acf6")
+		)
+		(instances
+			(project "template"
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 44.45 0)
 		(unit 1)
@@ -2991,6 +3520,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 179.07 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165728ab-eee0-4090-8f56-13a46b15c75d")
+		(property "Reference" "C1"
+			(at 182.88 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 182.88 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 180.0352 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccb0afd6-9bd2-4308-b72c-3dfa925a07c9")
+		)
+		(pin "2"
+			(uuid "1425d393-ac23-4843-bd60-8c83deb29cd6")
+		)
+		(instances
+			(project ""
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16a3e26b-7933-4bef-909e-5f67089303ce")
+		(property "Reference" "#PWR021"
+			(at 207.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f9587a-29d8-4d34-9ff7-fe104d24b775")
+		)
+		(instances
+			(project ""
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 113.03 90.17 0)
 		(unit 1)
@@ -3018,7 +3683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 114.046 90.424 90)
 			(effects
 				(font
@@ -3128,6 +3793,76 @@
 			(project "template"
 				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 224.79 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a2c6086-c1dd-4d1e-a20f-d358d21fc023")
+		(property "Reference" "C5"
+			(at 228.6 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 228.6 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 225.7552 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64b2d28a-79eb-4298-8b75-79e9136aed1e")
+		)
+		(pin "2"
+			(uuid "202be82a-bfd3-4bef-b1c4-1e1554ea45ba")
+		)
+		(instances
+			(project "template"
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3472,6 +4207,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 207.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b9641f2-05d1-4a1e-95c3-d76eece23a8d")
+		(property "Reference" "#PWR020"
+			(at 207.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 207.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea602cef-b401-4814-8adf-c4cd2c8bb416")
+		)
+		(instances
+			(project ""
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 113.03 77.47 0)
 		(unit 1)
@@ -3490,7 +4291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "200k"
 			(at 115.57 78.7399 0)
 			(effects
 				(font
@@ -3499,7 +4300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 114.046 77.724 90)
 			(effects
 				(font
@@ -4411,6 +5212,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 190.5 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a82413d5-52e8-4a06-ba00-7111010e84cf")
+		(property "Reference" "C2"
+			(at 194.31 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 194.31 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 191.4652 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "751d2b5f-561e-4dce-aebe-ef6480b2dd84")
+		)
+		(pin "2"
+			(uuid "283df1d8-0984-44e6-8dde-8e73360480ad")
+		)
+		(instances
+			(project "template"
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 223.52 34.29 0)
 		(unit 1)
@@ -4471,6 +5342,76 @@
 			(project "template"
 				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 201.93 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16835ba-9261-4b94-a711-fde593297290")
+		(property "Reference" "C3"
+			(at 205.74 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 205.74 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 202.8952 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "634b7d42-5147-42d4-bb60-1e4a3a04922a")
+		)
+		(pin "2"
+			(uuid "ff027d66-0930-4acc-a994-e160322ff1c8")
+		)
+		(instances
+			(project "template"
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4736,6 +5677,76 @@
 			(project "template"
 				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d498e372-d5e5-4a4e-b846-d6ba96037af7")
+		(property "Reference" "C6"
+			(at 240.03 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 240.03 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 237.1852 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81343b8-9a3e-4554-9766-1193ce2a1130")
+		)
+		(pin "2"
+			(uuid "6cc2af4e-44ba-4fe3-a4f2-69c1721630ab")
+		)
+		(instances
+			(project "template"
+				(path "/06e5b98e-d210-45ee-9675-f0413afcd544"
+					(reference "C6")
 					(unit 1)
 				)
 			)
